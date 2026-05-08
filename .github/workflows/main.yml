@@ -1,0 +1,13 @@
+name: Schedule Workflow Test
+
+on: 
+  schedule:
+    - cron: "47 19 * * *"
+
+jobs:
+  interview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Schedule Test
+        run: echo "I've done Test"
