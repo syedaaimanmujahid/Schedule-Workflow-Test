@@ -2,8 +2,8 @@ name: Schedule Workflow Test
 
 on: 
   schedule:
-    - cron: "53 19 * * *"
-      workflow-dispetch
+    - cron: "55 19 * * *"
+      workflow_dispetch
 
 jobs:
   interview:
